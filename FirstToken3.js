@@ -1,4 +1,8 @@
-/* FirstToken.sol: https://github.com/AbsoluteVirtueXI/alyra-courses/blob/master/ethereum/3-smart-contract-programming.md
-Déployez le contrat FirstToken.sol et passez en paramètre du constructor une adresse dont vous avez le contrôle avant 
-le déploiement. Ainsi les Ethers récoltés seront bien envoyés à une adresse dont vous êtes propriétaires. 
-Effectuez 1 transaction depuis un second compte pour vérifier que votre contract fonctionne comme convenu.*/
+/* Une étude approfondie nous montre que notre token devrait couter 1 Ether.
+Améliorez la fonction buyToken() afin que chaque token puisse être vendu pour 1 Ether.
+Pour simplifier l'exercice nous supposerons que l'utilisateur qui souhaitera acheter notre token 
+enverra forcement un nombre entier d'Ether, par exemple 0, 1, 2,...10 Ethers.
+Attention à l'unité de mesure, dans Ethereum tout est calculé en wei.
+(indice: Solidity nous offre une possibilité pour faire des conversions facilement entre les 
+différentes dénominations: wei, gwei, ... , ether).*/
+
