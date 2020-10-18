@@ -1,3 +1,6 @@
+// SPDX-License-Identifier: MIT                 r
+//pragma solidity ^0.6.0;
+
 /* I pasted the key 0x2C308a229a537802fe9411F684930F2A205B6295 in "At address" in Remix.etherum in 
 "injected Web3" environment with my metamask connected to rinkeby. Then create a file named "code" 
 and copy and paste the Solidity code for exercise. Clicked on "deployed" and a string_ExoLink 
